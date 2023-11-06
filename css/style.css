@@ -32,7 +32,7 @@ li {
 }
 
 header .container {
-    width:100%;
+    max-width:100%;
 }
 
 header .content {
@@ -58,6 +58,10 @@ header .query-desk {
 @media screen and (min-width:768px) {
 
     /* HEADER */
+    header .container {
+        max-width:1200px;
+    }
+
     header .query-desk {
         display:block
     }
