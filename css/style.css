@@ -21,6 +21,14 @@ body {
     background-color:#9792e4;
 }
 
+.lightblue {
+    background-color:#b5ddff;
+}
+
+.bord-15 {
+    border-radius:15px;
+}
+
 ul {
     list-style-type:none;
 }
@@ -105,12 +113,46 @@ header .query-desk {
     display:none
 }
 
+/* MAIN!!!!!!!! */
 /* JUMBOTRON */
 main .jumbotron .content {
-    background-color:blueviolet;
-    border:1px solid black;
-    height:200px;
     width:100%;
+    color:#333333;
+    font-size:12px;
+    padding:15px;
+    line-height:25px;
+}
+
+main .jumbotron h2 {
+    color:rgb(0, 132, 253);
+    font-size:15px;
+    margin:20px 0px;
+}
+
+main .jumbotron .one {
+    width:100%;
+    float:none;
+}
+
+main .jumbotron .two {
+    width:100%;
+    float:none;
+    padding:0px;
+    margin-bottom:-6px;
+}
+
+main .jumbotron .two img {
+    width:100%;
+    padding:0px;
+}
+
+main .jumbotron a {
+    color:white;
+    background-color:#0084fd;
+    letter-spacing:2px;
+    padding:5px 30px;
+    border-radius:50px;
+    text-decoration:none;
 }
 
 /* STRATEGIC */
@@ -192,6 +234,10 @@ footer .block {
     /* HEADER */
 
     /* JUMBOTRON */
+    main .jumbotron .two img {
+        width:60%;
+        padding:0px;
+    }
 
     /* STRATEGIC  */
 
@@ -256,6 +302,20 @@ footer .block {
     }
 
     /* JUMBOTRON */
+
+    main .jumbotron .one {
+        width:50%;
+        float:left;
+    }
+    
+    main .jumbotron .two {
+        width:50%;
+        float:right;
+    }
+
+    main .jumbotron .two img {
+        width:60%;
+    }
 
     /* STRATEGIC  */
 
