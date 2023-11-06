@@ -23,6 +23,14 @@ header {
     background-color: blue;
 }
 
+ul {
+    list-style-type:none;
+}
+
+li {
+    display:inline-block;
+}
+
 header .container {
     width:100%;
 }
@@ -32,4 +40,25 @@ header .content {
     border:1px solid black;
     height:50px;
     width:100%;
+}
+
+header .query-desk {
+    display:none
+}
+
+
+/* MEDIA-QUERY!!!!!! TABLET */
+@media screen and (min-width:480px) {
+
+    /* HEADER */
+
+}
+
+/* MEDIA-QUERY!!!!!! DESKTOP */
+@media screen and (min-width:768px) {
+
+    /* HEADER */
+    header .query-desk {
+        display:block
+    }
 }
