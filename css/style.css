@@ -10,17 +10,9 @@
     flex-wrap:wrap;
 }
 
-/* COLONNE */
-.col-50 {
-    width:calc(100% / 2 - 20px);
-    margin:10px;
-}
-
-
-
-/* HEADER!!!!!  */
-header {
-    background-color: blue;
+.container {
+    max-width:100%;
+    margin:0 auto;
 }
 
 ul {
@@ -31,8 +23,26 @@ li {
     display:inline-block;
 }
 
-header .container {
-    max-width:100%;
+/* COLONNE */
+.col-50 {
+    width:calc(100% / 2 - 20px);
+    margin:10px;
+}
+
+.col-66 {
+    width:calc(100% - 20px);
+    margin:10px;
+}
+
+.col-33 {
+    width:calc(100% - 20px);
+    margin:10px;
+}
+
+
+/* HEADER!!!!!  */
+header {
+    background-color: blue;
 }
 
 header .content {
@@ -46,22 +56,43 @@ header .query-desk {
     display:none
 }
 
+/* JUMBOTRON */
+main .jumbotron .content {
+    background-color:blueviolet;
+    border:1px solid black;
+    height:200px;
+    width:100%;
+}
+
 
 /* MEDIA-QUERY!!!!!! TABLET */
 @media screen and (min-width:480px) {
 
+    .col-66 {
+        width:calc((100% / 3) x 2 - 20px);
+        margin:10px;
+    }
+    
+    .col-33 {
+        width:calc(100% / 3 - 20px);
+        margin:10px;
+    }  
+
     /* HEADER */
+
+    /* JUMBOTRON */
+
 
 }
 
 /* MEDIA-QUERY!!!!!! DESKTOP */
 @media screen and (min-width:768px) {
 
-    /* HEADER */
-    header .container {
+    .container {
         max-width:1200px;
     }
 
+    /* HEADER */
     header .query-desk {
         display:block
     }
