@@ -203,11 +203,47 @@ main .strategic #arrow {
 }
 
 /* TESTIMONIALS */
+main .testimonials {
+    font-size:12px;
+    line-height:25px;
+    color:#333333;
+    margin:30px 0px;
+}
+
+main .testimonials h1 {
+    color:#9792e4;
+    font-size:20px;
+    margin:20px 0px;
+}
+
 main .testimonials .box {
     width:100%;
-    background-color:rgb(168, 255, 127);
-    border:1px solid black;
-    height:150px;
+    margin:20px 0px;
+    color:white;
+    padding:20px;
+}
+
+main .testimonials .photo {
+    width:100%;
+    float:none;
+}
+
+main .testimonials .photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main .testimonials .quote {
+    width:100%;
+    float:none;
+}
+
+main .testimonials .name {
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:1px;
 }
 
 /* BENEFITS */
@@ -281,6 +317,21 @@ footer .block {
     /* STRATEGIC  */
 
     /* TESTIMONIALS */
+    main .testimonials .box {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    main .testimonials .photo {
+        width:30%;
+        float:left;
+    }
+
+    main .testimonials .quote {
+        width:70%;
+        float:right;
+    }
 
     /* BENEFITS */
     main .benefits .col-33 {
