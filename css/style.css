@@ -69,7 +69,7 @@ main .jumbotron .content {
 @media screen and (min-width:480px) {
 
     .col-66 {
-        width:calc((100% / 3) x 2 - 20px);
+        width:calc((100% / 3) * 2 - 20px);
         margin:10px;
     }
     
