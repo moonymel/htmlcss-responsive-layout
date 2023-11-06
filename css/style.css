@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.violet {
+    background-color:#9792e4;
+}
+
 .row {
     width:100%;
     display:flex;
@@ -24,8 +28,13 @@ li {
 }
 
 /* COLONNE */
-.col-50 {
+.col-50-head {
     width:calc(100% / 2 - 20px);
+    margin:10px;
+}
+
+.col-50 {
+    width:100%;
     margin:10px;
 }
 
@@ -64,6 +73,14 @@ main .jumbotron .content {
     width:100%;
 }
 
+/* STRATEGIC */
+main .strategic .content {
+    background-color:rgb(67, 123, 151);
+    border:1px solid black;
+    height:200px;
+    width:100%;
+}
+
 
 /* MEDIA-QUERY!!!!!! TABLET */
 @media screen and (min-width:480px) {
@@ -90,6 +107,11 @@ main .jumbotron .content {
 
     .container {
         max-width:1200px;
+    }
+
+    .col-50 {
+        width:calc(100% / 2 - 20px);
+        margin:10px;
     }
 
     /* HEADER */
