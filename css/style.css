@@ -21,12 +21,20 @@ body {
     background-color:#9792e4;
 }
 
+.white {
+    background-color:white;
+}
+
 .lightblue {
     background-color:#b5ddff;
 }
 
 .bord-15 {
     border-radius:15px;
+}
+
+.bord-30 {
+    border-radius:30px;
 }
 
 ul {
@@ -157,10 +165,41 @@ main .jumbotron a {
 
 /* STRATEGIC */
 main .strategic .content {
-    background-color:rgb(67, 123, 151);
-    border:1px solid black;
-    height:200px;
     width:100%;
+    color:white;
+    font-size:12px;
+    padding:15px;
+    line-height:25px;
+}
+
+main .strategic .content img {
+    width:100%;
+}
+
+main .strategic h1 {
+    color:white;
+    font-size:20px;
+    margin:20px 0px;
+}
+
+main .strategic h2 {
+    color:#333333;
+    font-size:15px;
+    margin:20px 0px;
+}
+
+main .strategic .box {
+    color:#333333;
+    padding:20px;
+}
+
+main .strategic #arrow {
+    color:black;
+    background-color:#9792e4;
+    padding:5px 14px;
+    border-radius:100%;
+    font-size:20px;
+    font-weight:bold;
 }
 
 /* TESTIMONIALS */
@@ -254,7 +293,7 @@ footer .block {
 @media screen and (min-width:768px) {
 
     .container {
-        max-width:1200px;
+        max-width:991px;
     }
 
     .col-50 {
